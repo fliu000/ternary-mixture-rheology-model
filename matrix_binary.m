@@ -18,7 +18,7 @@ d51 = 0;
 
 D = [d11; d21; d41; d51]
 
-F =  C * D
+F =  C * D;
 %simplify(F)
 
 deltaG1 = F(1);
