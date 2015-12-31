@@ -8,7 +8,6 @@ b41 = 1; b42 = 0; b44 = -a11; b45 = -a12;
 b51 = 0; b52 = 1; b54 = -a21; b55 = -a22; 
 
 B = [[b11,b12,b14,b15]; [b21,b22,b24,b25]; [b41,b42,b44,b45]; [b51,b52,b54,b55]]
-C = inv(B);
 
 d11 = -gamma1 * deltaA / A;
 d21 = -gamma2 * deltaA / A;
@@ -18,7 +17,7 @@ d51 = 0;
 
 D = [d11; d21; d41; d51]
 
-F =  C * D;
+F =  B\D;
 %simplify(F)
 
 deltaG1 = F(1);
