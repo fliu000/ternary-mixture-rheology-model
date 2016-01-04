@@ -1,4 +1,4 @@
-% General Case
+% Ternary System
 
 syms D1_ D2_ D3_ a11 a12 a13 a21 a22 a23 a31 real
 % D1_ = D1 / omega; D2_ = D2 / omega; D3_ = D3 / omega;
