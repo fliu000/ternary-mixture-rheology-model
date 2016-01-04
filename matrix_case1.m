@@ -1,4 +1,4 @@
-syms D1_ D2_ a11 a12 a13 a21 a22 a23 a31 real
+syms D1_ D2_ a11 a12 a21 a22 real
 syms deltaA A gamma1 gamma2 gamma3 real
 
 b11 = 1; b12 = 0; b13 = 0; b14 = (1-1i)*sqrt(2*D1_)/2; b15 = 0; 
