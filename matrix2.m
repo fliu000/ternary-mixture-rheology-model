@@ -1,4 +1,4 @@
-% Case 2:
+% Case 2: One minor component equilibrates very fast, i.e. k3 is small, deltaCs1 = 0.
 
 syms D1_ D2_ a11 a12 a21 a22 real
 % D1_ = D1 / omega; D2_ = D2 / omega;
