@@ -8,7 +8,7 @@ syms deltaA A gamma1 real
 % omega = 2 * pi * f; D1_ = D1 / omega;
 % a11 = d(gamma1)/d(Cs1);
 
-b11 = 1; b12 = (1-1i)*sqrt(2*D1_)/2;
+b11 = 1; b12 = sqrt(D1_／i)/2;
 b21 = 1; b22 = -a11;
 
 B = [[b11,b12]; [b21,b22]]
