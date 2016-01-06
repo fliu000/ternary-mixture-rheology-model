@@ -4,8 +4,8 @@ syms D1_ D2_ a11 a12 a21 a22 real
 % D1_ = D1 / omega; D2_ = D2 / omega;
 syms deltaA A gamma1 gamma2 gamma3 real
 
-b11 = 1; b12 = 0; b14 = (1-1i)*sqrt(2*D1_)/2; b15 = 0; 
-b21 = 0; b22 = 1; b24 = 0; b25 = (1-1i)*sqrt(2*D2_)/2; 
+b11 = 1; b12 = 0; b14 = sqrt(D1_／i); b15 = 0; 
+b21 = 0; b22 = 1; b24 = 0; b25 = sqrt(D2_／i); 
 
 b41 = 1; b42 = 0; b44 = -a11; b45 = -a12; 
 b51 = 0; b52 = 1; b54 = -a21; b55 = -a22; 
